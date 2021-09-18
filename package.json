@@ -1,0 +1,32 @@
+{
+  "name": "@nomicres/restful",
+  "version": "0.1.1",
+  "description": "NodeJs Microservices RESTful interface.",
+  "private": false,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nomicres/restful.git"
+  },
+  "keywords": [
+    "NoMicres",
+    "RESTful",
+    "NodeJs",
+    "Microservices",
+    "interface."
+  ],
+  "author": "Muhammad Rendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomicres/restful/issues"
+  },
+  "homepage": "https://github.com/nomicres/restful#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
